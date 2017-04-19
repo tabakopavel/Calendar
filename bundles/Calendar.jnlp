@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Calendar.jnlp">
+  <information>
+    <title>Calendar</title>
+    <vendor>Unknown</vendor>
+    <description>Calendar</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Calendar.jar" size="123652" download="eager" />
+    <jar href="out\artifacts\Calendar_jar\Calendar.jar" size="33874" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="my.CalendarUI.Main"  name="Calendar" />
+  <update check="background"/>
+</jnlp>
